@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Mandali&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ccaaff;
+    text-decoration: none;
+}
+
+body{
+    background-color: #200050;
+}
+
+figcaption{
+    display: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.cabecalho{
+    background-image: linear-gradient(#180238, #18023800);
+    text-align: center;
+    padding: 9px;
+    margin-bottom: 29px;
+}
+.cabecalho img{
+    margin-top: 5px;
+    height: 3.1em;
+}
+
+.dados{
+    padding: 20px;
+    padding-left: 29px;
+}
+.dados h2{
+    font-size: 1em;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 17px;
+}
+
+.dados label{
+    font-size: 0.8em;
+    color: #fff;
+    font-family: 'Mandali', sans-serif;
+    padding-left: 3px;
+}
+
+.dados input{
+    display: block;
+    width: 4em;
+    height: 25px;
+    padding: 6px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    color: #180238;
+    border: 0px none;
+    border-radius: 7px;
+}
+
+.dados input::-webkit-input-placeholder{
+    font-size: 0.5em;
+    color: #bbbbbb;
+}
+
+.dados input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.valores{
+    float: left;
+    margin-right: 10px;
+}
+
+#idade {
+    width: 1.7em;
+}
+
+#peso, #altura{
+    width: 4em;
+}
+
+.dados h3{
+    font-size: 0.8em;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 23px;
+    margin-bottom: 5px;
+}
+
+.dados i{
+    font-size: 4em;
+    padding-left: 30px;
+}
+
+#masculino {
+    color: #00ffad;
+}
+
+#feminino{
+    color: #ff003b;
+}
+
+.dados button{
+    border: 0px none;
+    font-size: 1em;
+    padding: 5px;
+    font-family: 'Mandali', sans-serif;
+}
+
+#perder{
+    color: #180238;
+    background-color: #00ffad;
+}
+
+#ganhar{
+    color: #fff;
+    background-color: #ff003b;
+}
+
+.calcular{
+    width: auto;
+    padding: 27px;
+    text-align: center;
+}
+
+.calcular button{
+    margin-top: 50px;
+    border: 0px none;
+    font-size: 1em;
+    padding: 5px;
+    width: 80%;
+    max-width: 360px;
+    background-color: #110129;
+    font-family: 'Mandali', sans-serif;
+}
+
+.calcular p{
+    font-size: 0.7em;
+    color: red;
+    font-family: 'Mandali', sans-serif;
+}
+
+.resultado{
+    padding: 40px;
+}
+
+.resultado h2{
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 17px;
+}
+
+.resultado p{
+    text-align: justify;
+    line-height: 22px;
+    font-size: 1.2em;
+    font-family: 'Mandali', sans-serif;
+}
+
+.resultado span {
+    font-size: 1.2em;
+    color: #63ff64;
+}
+
+.novo{
+    width: auto;
+    max-width: auto;
+    padding: 27px;
+    text-align: center;
+}
+
+.novo button{
+    margin-top: 50px;
+    border: 0px none;
+    font-size: 1em;
+    padding: 5px;
+    width: 80%;
+    max-width: 360px;
+    background-color: #110129;
+    font-family: 'Mandali', sans-serif;
+}
+
+.rodape{
+    background-image: linear-gradient(#18023800, #180238);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    font-size: 0.7em;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+
+.rodape a {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 400px){
+    .dados{
+        padding-left: 50px;
+    }
+    .dados h2{
+        font-size: 1.3em;
+        margin-bottom: 7px;
+    }
+    
+    .dados label{
+        font-size: 1em;
+        padding-left: 5px;
+    }
+        
+    .dados input::-webkit-input-placeholder{
+        font-size: 0.7em;
+    }
+
+    .dados h3{
+        font-size: 1em;
+    }
+    
+    .dados i{
+        font-size: 5em;
+        padding-left: 45px;
+    }
+
+    .calcular button{
+        margin-top: 0px;
+        
+    }
+
+    .resultado{
+        padding: 40px;
+    }
+
+    .novo button{
+        margin-top: 0px;
+        
+    }
+}
+
+@media screen and (min-width: 760px){
+    .dados{
+        padding-left: 234px;
+    }
+    .dados h2{
+        font-size: 1.3em;
+        margin-bottom: 7px;
+    }
+    
+    .dados label{
+        font-size: 1em;
+        padding-left: 5px;
+    }
+        
+    .dados input::-webkit-input-placeholder{
+        font-size: 0.7em;
+    }
+
+    .dados h3{
+        font-size: 1em;
+    }
+    
+    .dados i{
+        font-size: 5em;
+        padding-left: 45px;
+    }
+
+    .calcular button{
+        margin-top: 0px;
+        
+    }
+
+    .resultado{
+        padding: 90px;
+    }
+
+    .novo button{
+        margin-top: 0px;
+        
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .dados{
+        padding-left: 385px;
+    }
+    .dados h2{
+        font-size: 1.3em;
+        margin-bottom: 7px;
+    }
+    
+    .dados label{
+        font-size: 1em;
+        padding-left: 5px;
+    }
+        
+    .dados input::-webkit-input-placeholder{
+        font-size: 0.7em;
+    }
+
+    .dados h3{
+        font-size: 1em;
+    }
+    
+    .dados i{
+        font-size: 5em;
+        padding-left: 45px;
+    }
+
+    .calcular button{
+        margin-top: 0px;
+        
+    }
+
+    .resultado{
+        padding: 150px;
+    }
+
+    .novo button{
+        margin-top: 0px;
+        
+    }
+}
+
+@media screen and (min-width: 1121px){
+    .dados{
+        padding-left: 435px;
+    }
+}
+
+@media screen and (min-width: 1224px){
+    .dados{
+        padding-left: 475px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .dados{
+        padding-left: 535px;
+    }
+}
+
+@media screen and (min-width: 1415px){
+    .dados{
+        padding-left: 605px;
+    }
+}
+@media screen and (min-width: 1560px){
+    .dados{
+        padding-left: 655px;
+    }
+}
+
+@media screen and (min-width: 1660px){
+    .dados{
+        padding-left: 710px;
+    }
+}
+
+@media screen and (min-width: 1710px){
+    .dados{
+        padding-left: 780px;
+    }
+}

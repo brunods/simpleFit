@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imagens/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>simpleFit</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <figure>
+            <img src="assets/imagens/logo.svg" alt="simpleFit">
+            <figcaption>Logo simpleFit</figcaption>
+        </figure>
+    </header>
+    <section class="dados" id="dados">
+        <h2>Preecha seus dados:</h2>
+        <div class="valores">
+            <label for="idade">Idade</label>
+            <input type="text" inputmode="numeric" id="idade" placeholder="...">
+        </div>
+        <div class="valores">
+            <label for="peso">Peso</label>
+            <input type="text" inputmode="numeric" id="peso" placeholder="kg">
+        </div>
+        <div class="valores">
+            <label for="altura">Altura</label>
+            <input type="text" inputmode="numeric" id="altura" placeholder="cm">
+        </div>
+        <div class="clear"></div>
+        <h3>Você nasceu? <span id="res_Sexo"></span></h3>
+        <i class="fas fa-male" id="masculino"></i>
+        <i class="fas fa-female" id="feminino"></i>
+        <h3>Qual seu objetivo? <span id="res_Objetivo"></span></h3>
+        <button id="perder">Perder Peso</button>
+        <button id="ganhar">Ganhar Massa</button>
+    </section>
+
+    <div class="calcular" id="calcular">
+        <button id="btn_calcular"><i class="fas fa-check"></i> Ver Resultado</button>
+        <p id="msg"></p>
+    </div>
+
+    <section class="resultado" id="resultado">
+        <h2>Seu Resultado:</h2>
+        <p>Você deve beber <span id="agua"></span> de água por dia!</p><br>
+        <p id="res"></p>
+    </section>
+
+    <div class="novo" id="novo">
+        <button id="btn_novo"><i class="fas fa-reply"></i> Novo Cálculo</button>
+    </div>
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="https://www.instagram.com/brunoduarth/" target="_blank">Bruno Duarte <i class="fab fa-instagram"></i></a></p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
